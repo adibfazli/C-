@@ -41,10 +41,10 @@ int main(){
         invItem.setTotalCost();
         // displaying the collected and calculated inputs to the user.
         cout << LINEdefined << endl;
-        cout << " Item Number:\t" << invItem.getItemNumber() << endl;
+        cout << " Item Number:\t#" << invItem.getItemNumber() << endl;
         cout << " Item Quantity:\t"  << invItem.getQuantity()<< endl;
-        cout << " Item Price:\t" << fixed << setprecision(2) <<  invItem.getCost()<< endl;
-        cout << " Total Cost:\t" << fixed << setprecision(2) << invItem.getTotalCost()<< endl;
+        cout << " Price of each item:\t$" << fixed << setprecision(2) <<  invItem.getCost()<< endl;
+        cout << " Total Cost:\t$" << fixed << setprecision(2) << invItem.getTotalCost()<< endl;
         cout << LINEdefined << endl;
         cout << "Another one? Y or N" << endl;
         cin.ignore();
