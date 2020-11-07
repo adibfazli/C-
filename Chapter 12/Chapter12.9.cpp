@@ -31,8 +31,8 @@ int main() {
   cin.getline(upperCaseArr, SIZE);
 
   // Copy the string to lowerCaseArr and flippedArr.
-  strcpy(lowerCaseArr, upperCaseArr);
-  strcpy(flippedArr, upperCaseArr);
+  strcpy_s(lowerCaseArr, upperCaseArr);
+  strcpy_s(flippedArr, upperCaseArr);
 
   // flip the case in flippedArr.
   cout << '\n' << "Flip  : ";

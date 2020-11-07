@@ -22,7 +22,6 @@ int main() {
   //Logic in Loop for getting sum of digits and smallest and largest numbers
   while(number>0) {  
     i = number % 10;
-    cout << "# :" << number << "   i: " << i << "   S: " << smallest<< "   L: " << largest << endl;
     if ( smallest > i) // If statement for getting smallest digit
       smallest = i;
     if ( largest < i) //If statement for getting largest digit
